@@ -43,5 +43,7 @@ axios.get("https://contact-arifbillah.herokuapp.com/data").then((res) => {
     document.body.style.color = "rgb(245, 245, 245)";
     document.body.style.fontFamily = " Arial, Helvetica, sans-serif";
     document.body.style.letterSpacing = "1px";
+        document.title = "Arif Billah";
+
   });
 });
