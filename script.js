@@ -9,7 +9,7 @@ axios.get("https://contact-arifbillah.herokuapp.com/data").then((res) => {
   res.data.users.map((data) => {
     userId = data.id;
     document.write(`
-        <p class="idNumber"  style="display: inline-block; color: rgb(250, 30, 238)"></p>
+        <p class="idNumber"  style="color: rgb(250, 30, 238)"></p>
 
     <div class="container" style="  width: max-content;
     height: max-content;
